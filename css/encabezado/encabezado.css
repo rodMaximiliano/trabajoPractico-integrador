@@ -1,0 +1,6 @@
+.encabezado {
+    display: flex;
+    background-color: #111111;
+    align-items: center;
+    justify-content: space-between;
+}

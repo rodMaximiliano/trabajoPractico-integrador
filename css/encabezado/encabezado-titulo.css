@@ -1,0 +1,10 @@
+.encabezado__titulo {
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+}
