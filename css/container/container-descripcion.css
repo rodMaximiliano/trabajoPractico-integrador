@@ -1,0 +1,12 @@
+.container__descripcion {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding: 0 1rem 0 0;
+}
+
+.container__descripcionX {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+}

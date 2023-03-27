@@ -1,0 +1,8 @@
+.container__foto {
+    width: 550px;
+    height: 400px;
+    margin: 0 1rem 0 .5rem;
+
+    box-sizing: border-box;
+    border-radius: 100px 0 100px;
+}

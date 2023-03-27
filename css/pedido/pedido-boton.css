@@ -1,0 +1,15 @@
+.pedido__boton {
+    border: none;
+    padding: .5rem;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #3d3f3f;
+    color: white;
+    transition: all .1s ease-in-out;
+}
+
+.pedido__boton:hover {
+    background-color: #363838;
+    cursor: pointer;
+    width: 155px;
+}

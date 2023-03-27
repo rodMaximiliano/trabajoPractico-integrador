@@ -1,0 +1,9 @@
+.pedido {
+    background: #ebc78c;
+    text-align: center;
+    align-items: center;
+    margin: 3rem 0 3rem 0;
+    padding: 5rem;
+    box-sizing: border-box;
+    box-shadow: -2px 1px 15px -5px rgba(0,0,0,0.75);
+}

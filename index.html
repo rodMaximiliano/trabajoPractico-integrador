@@ -11,7 +11,9 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/body.css">
 
         <link rel="stylesheet" href="/css/encabezado/encabezado.css">
         <link rel="stylesheet" href="/css/encabezado/encabezado-item.css">
@@ -20,16 +22,29 @@
         <link rel="stylesheet" href="/css/encabezado/encabezado-logo.css">
         <link rel="stylesheet" href="/css/encabezado/encabezado-titulo.css">
 
+        <link rel="stylesheet" href="/background.css">
+
+        <link rel="stylesheet" href="/css/container/container-separador.css">
+        <link rel="stylesheet" href="/css/container/container-foto.css">
+        <link rel="stylesheet" href="/css/container/container-titulo.css">
+        <link rel="stylesheet" href="/css/container/container-descripcion.css">
+
+        <link rel="stylesheet" href="/css/pedido/pedido-boton.css">
+        <link rel="stylesheet" href="/css/pedido/pedido-descripcion.css">
+        <link rel="stylesheet" href="/css/pedido/pedido-titulo.css">
+        <link rel="stylesheet" href="/css/pedido/pedido.css">
+
+        <link rel="stylesheet" href="/css/apiAdd/map.css">
+        <link rel="stylesheet" href="/css/apiAdd/apiAdd.css">
 
     </head>
 
-    <body>
+    <body class="body">
         <header class="encabezado">
             <nav class="encabezado__titulo">
                 <a href="/index.html" class="encabezado__titulo"><img src="/img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo"></a>
-                <p class="encabezado__titulo">Patitas</p>
+                <p class="encabezado__titulo">Pineda</p>
                 </nav>
-
                 <nav class="menu">
                     <ul class="encabezado__lista">
                         <li class="encabezado__item"><a href="index.html" class="encabezado__link">Home</a></li>
@@ -38,5 +53,71 @@
                     </ul> 
                 </nav>
         </header>
+
+        <section>
+            <div class="opa"></div>
+            <img src="/img/veterinaria.jpg" alt="Veterinaria" class="background">
+        </section>
+
+        <section class="containerSeparador">
+            <img src="/img/veterinaria-quienesSomos.jpg" alt="Imagen de veterinaria" class="container__foto">
+            <div>
+                <h2 class="container__titulo">¿Quienes somos?</h2>
+                <p class="container__descripcion">En Pineda, somos una clínica veterinaria comprometida 
+                    con el bienestar y la salud de tus mascotas. Nuestro equipo de profesionales altamente 
+                    capacitados, con años de experiencia en el campo de la medicina veterinaria, está 
+                    dedicado a brindar atención médica de alta calidad y cuidado personalizado a cada uno 
+                    de nuestros pacientes. 
+                    </br> </br>
+                    Entendemos que tu mascota es un miembro importante de tu familia, y es por eso que nos 
+                    esforzamos por crear un ambiente acogedor y amigable en nuestra clínica. 
+                    Desde el momento en que entras por nuestras puertas, serás recibido por un equipo amable y 
+                    atento que se esforzará por hacer que tanto tú como tu mascota se sientan cómodos y seguros</p>
+            </div>
+        </section>
+
+        <section class="containerSeparadorX">
+            <div>
+                <h2 class="container__tituloX">¿Con quien trabajamos?</h2>
+                <p class="container__descripcionX">Creemos en trabajar con los mejores socios y proveedores para 
+                    garantizar que brindemos los mejores servicios y productos a nuestras mascotas y clientes. 
+                    Es por eso que estamos orgullosos de trabajar con Proterline, una empresa líder en la industria 
+                    de productos para mascotas 
+                    </br> </br>
+                    Trabajamos estrechamente con Proterline para ofrecer una selección de productos de alta calidad y 
+                    saludables para nuestras mascotas. Nos aseguramos de que todos los productos que ofrecemos en nuestra 
+                    clínica sean seguros y estén hechos con los mejores materiales disponibles</p>
+            </div>
+            <img src="/img/Banner.png" alt="Imagen de veterinaria" class="container__foto">
+        </section>
+
+        <section class="containerSeparadorL">
+            <img src="/img/PETS CHILDREN KIDS PHOTOGRAPHY.png" alt="Imagen de veterinaria" class="container__foto">
+            <div>
+                <h2 class="container__titulo">¿Que servicios ofrecemos?</h2>
+                <p class="container__descripcion">En Pineda, creemos que la prevención es la clave para mantener a 
+                    tu mascota sana y feliz. Es por eso que ofrecemos exámenes de salud completos, así como planes de 
+                    salud preventivos personalizados para cada mascota, diseñados para prevenir enfermedades y detectar 
+                    problemas de salud en etapas tempranas.
+                    </br> </br>
+                    Además, también ofrecemos servicios de urgencias y hospitalización para mascotas que necesiten atención 
+                    médica inmediata o una atención más intensiva. Nuestro equipo médico está disponible las 24 horas del 
+                    día, los 7 días de la semana para brindar la mejor atención médica a tus mascotas en todo momento.</p>
+            </div>
+        </section>
+
+        <section class="pedido">
+            <h1 class="pedido__titulo">¿Necesitas realizar un pedido?</h1>
+            <p class="pedido__descripcion">No te preocupes, una vez realizada la peticion nuestros operadores se pondran en contacto
+            contigo en las proximas 48hs </br>(Los dias habiles no se procesan)</p>
+            <a href="/index-cotizacion.html"><button class="pedido__boton">Cotizar ya</button></a>
+        </section>
+        
+        <section class="apiAdd">
+            <div id="map"></div>
+            <script src="/js/apiMaps.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        </section>
+        
     </body>
 </html>
