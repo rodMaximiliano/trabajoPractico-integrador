@@ -36,6 +36,11 @@
 
         <link rel="stylesheet" href="/css/apiAdd/map.css">
         <link rel="stylesheet" href="/css/apiAdd/apiAdd.css">
+        <link rel="stylesheet" href="/css/apiAdd/api-item.css">
+        <link rel="stylesheet" href="/css/apiAdd/api-lista.css">
+        <link rel="stylesheet" href="/css/apiAdd/apiContainer.css">
+        <link rel="stylesheet" href="/css/apiAdd/apiTitulo.css">
+        <link rel="stylesheet" href="/separador.css">
 
     </head>
 
@@ -45,7 +50,7 @@
                 <a href="/index.html" class="encabezado__titulo"><img src="/img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo"></a>
                 <p class="encabezado__titulo">Pineda</p>
                 </nav>
-                <nav class="menu">
+                <nav>
                     <ul class="encabezado__lista">
                         <li class="encabezado__item"><a href="index.html" class="encabezado__link">Home</a></li>
                         <li class="encabezado__item"><a href="index-contacto.html" class="encabezado__link">Contacto</a></li>
@@ -56,7 +61,7 @@
 
         <section>
             <div class="opa"></div>
-            <img src="/img/veterinaria.jpg" alt="Veterinaria" class="background">
+            <img src="/img/veterinaria-quienesSomos.jpg" alt="Veterinaria" class="background">
         </section>
 
         <section class="containerSeparador">
@@ -115,7 +120,21 @@
         
         <section class="apiAdd">
             <div id="map"></div>
-            <p></p>
+            <div class="apiContainer">
+                <div class="apiContainer2">
+                    <h1 class="apiTitulo">Nuestra Sucursal</h2>
+                    <div class="separador"></div> 
+                    <h4 class="ApiTitulo2">Horarios:</h4>
+                    <div class="separador2"></div> 
+                    <nav>
+                        <ul class="api__lista">
+                            <li class="api__item">Lunes a viernes: 9:00 AM - 7:00 PM</li>
+                            <li class="api__item">Sábados: 10:00 AM - 2:00 PM</li>
+                            <li class="api__itemC">Domingos y días festivos: Cerrado</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 
             <script src="/js/apiMaps.js"></script>
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>

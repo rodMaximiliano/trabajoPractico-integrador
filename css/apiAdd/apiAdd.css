@@ -1,4 +1,6 @@
 .apiAdd {
+    align-items: flex-start;
+    display: flex;
     background-color: #ebc78c;
     padding: 1rem 0 1rem 1rem;
 }
