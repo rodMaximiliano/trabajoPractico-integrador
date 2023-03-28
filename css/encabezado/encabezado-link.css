@@ -1,6 +1,6 @@
 .encabezado__link {
     display: inline-block;
-    color: #363838;
+    color: #ebc78c;
     margin: 0 1rem;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -9,11 +9,11 @@
     padding: .5rem;
     border-radius: 5px;
     transition: .5s;
-    border: 1px solid #363838;
+    border: 1px solid #ebc78c;
 }
 
 .encabezado__link:hover {
-    color: #e5b769;
-    background-color: #363838;
+    color: #231F20;
+    background-color: #ebc78c;
 }
 
