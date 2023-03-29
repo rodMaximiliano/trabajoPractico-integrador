@@ -1,0 +1,6 @@
+.pie__copy {
+    display: flex;
+    font-size: .7rem;
+    flex-direction: column;
+    background-color: #1F2023;
+}

@@ -1,13 +1,25 @@
 .separador {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #2E2F36;
     box-sizing: border-box;
     margin: 1rem 0;
     width: 200%;
     
 }
 .separador2 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #2E2F36;
     box-sizing: border-box;
     width: 50%;
     margin: 1rem 0 0 0;    
+}
+
+.separador__pie {
+    border-bottom: 1px solid #2E2F36;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.separador__pie2 {
+    border-bottom: 1px solid #2E2F36;
+    box-sizing: border-box;
+    width: 100%;
 }

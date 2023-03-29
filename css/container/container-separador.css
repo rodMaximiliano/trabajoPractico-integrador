@@ -11,8 +11,8 @@
 }
 
 .containerSeparadorX {
-    color: white;
-    background-color: #292526;
+    color: #BEBEBE;
+    background-color: #1F2023;
     display: flex;
     padding: .5rem 0 .5rem 1rem;
     margin-top: 2rem;
