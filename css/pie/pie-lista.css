@@ -1,7 +1,7 @@
 .pie__lista {
     display: flex;
     flex-direction: column;
-    height: 155px;
+    height: 140px;
     flex-wrap: wrap;
     padding: 1rem 0 1rem 180px;
 }

@@ -1,5 +1,6 @@
 .pie__link {
     text-decoration: none;
 	color: #BEBEBE;
-	margin-top: 10px
+	margin-top: 10px;
+	font-size: .9rem;
 }
