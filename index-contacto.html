@@ -30,10 +30,18 @@
         <link rel="stylesheet" href="/css/pie/pie-titulo.css">
         <link rel="stylesheet" href="/css/pie/pie-copy.css">
         <link rel="stylesheet" href="/css/pie/pie-copy-desc.css">
+
+        <link rel="stylesheet" href="/css/formulario/formulario-eslogan.css">
+        <link rel="stylesheet" href="/css/formulario/formulario-logo.css">
+        <link rel="stylesheet" href="/css/formulario/formulario.css">
+        <link rel="stylesheet" href="/css/formulario/formulario-container.css">
+        <link rel="stylesheet" href="/css/formulario/formulario-titulo.css">
+        <link rel="stylesheet" href="/css/formulario/input-container.css">
+        <link rel="stylesheet" href="/css/formulario/formulario-boton.css">
     </head>
 
     <body class="body">
-        <header class="encabezado">
+        <header class="encabezado2">
             <nav class="encabezado__titulo">
                 <a href="/index.html" class="encabezado__titulo"><img src="/img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo"></a>
                 <p class="encabezado__titulo">Pineda</p>
@@ -48,42 +56,72 @@
         </header>
 
         <section class="formulario">
-            
+            <nav class="formulario__eslogan">
+                <img src="/img/logo-patita.png" alt="Logo de Pineda" class="formulario__logo">
+                <h1 class="formulario__eslogan-titulo">Pineda</h1> 
+                <h4 class="formulario__eslogan-titulo2">Siempre escuchamos nuestra comunidad</h4>
+                
+            </nav>
+
+            <form action="/index.html" class="formulario__container">
+                <h2 class="formulario__titulo1">Completa el registro</h2>
+                <fieldset class="fieldset">
+                    <legend class="formulario__titulo2">Informacion basica</legend>
+                    <div class="input__container">
+                        <input type="text" name="name" id="name" class="input" placeholder="Nombre" required>
+                        <label for="name" class="input-label"></label>
+                    </div>
+                    
+                    <div class="input__container">
+                        <input type="text" name="" id="email" class="input" placeholder="Email" required>
+                        <label for="email" class="input-label"></label>
+                    </div>
+                    
+                    <div class="input__container">
+                        <input type="password" name="password" id="password" class="input" placeholder="Contraseña" required>
+                        <label for="password" class="input-label"></label>
+                    </div>
+                    <div class="espacio"></div>
+                </fieldset>
+
+                <fieldset class="fieldset">
+                    <legend class="formulario__titulo2">Informacion personal</legend>
+                    <div class="input__container">
+                        <input type="date" name="fecha-de-nacimiento" id="fecha-de-nacimiento" class="input" placeholder="Fecha de nacimiento" required>
+                        <label for="fecha-de-nacimiento" class="input-label"></label>
+                    </div>
+                    
+                    <div class="input__container">
+                        <input type="text" name="" id="numero-telefonico" class="input" placeholder="Numero telefonico" required>
+                        <label for="numero-telefonico" class="input-label"></label>
+                    </div>
+                    <div class="espacio"></div>
+                </fieldset>
+
+                <fieldset class="fieldset">
+                    <legend class="formulario__titulo2">Direccion</legend>
+                    <div class="input__container">
+                        <input type="text" name="direccion" id="direccion" class="input" placeholder="Direccion" required>
+                        <label for="direccion" class="input-label"></label>
+                    </div>
+                    <div class="input__container">
+                        <input type="text" name="ciudad" id="ciudad" class="input" placeholder="Ciudad" required>
+                        <label for="ciudad" class="input-label"></label>
+                    </div>
+                    <div class="input__container">
+                        <input type="text" name="estado" id="estado" class="input" placeholder="Estado" required>
+                        <label for="estado" class="input-label"></label>
+                    </div>
+                    
+                </fieldset>
+                <button class="formulario__boton">Registrarse</a>
+            </form>
         </section>
 
         <footer class="pie">
-            <h3 class="pie__titulo">Mapa de Variedades</h3>
-                <div class="separador__pie"></div>
-            <div class="pie__lista">
-                <h4 class="pie__titulo-mapa">Proterline</h4>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Adultos</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Cachorros</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Mayoristas</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Cliente</a>
-
-                <h4 class="pie__titulo-mapa">Patrocinadores</h4>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">PurinaCatChau</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Logitech</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Pedigri</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Raza</a>
-
-                <h4 class="pie__titulo-mapa">Ayuda</h4>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">:3</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Contacto</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Cotizacion</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Contribucion</a>
-
-                <h4 class="pie__titulo-mapa">Personal</h4>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Github</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Linkedin</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Instragram</a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="pie__link" target="_blank">Facebook</a>
-            </div>
             <div class="pie__copy">
                 <div class="separador__pie2"></div>
-                <p class="pie__copy-desc">Copyright © 2023 ABC Company. Todos los derechos reservados.
-
-                </p>
+                <p class="pie__copy-desc">Copyright © 2023 ABC Company. Todos los derechos reservados.</p>
             </div>
         </footer>
     </body>
