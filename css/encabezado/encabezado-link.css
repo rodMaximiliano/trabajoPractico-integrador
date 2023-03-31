@@ -17,3 +17,26 @@
     background-color: #ebc78c;
 }
 
+.encabezado__itemSeparador {
+    display: inline-block;
+    color: #ebc78c;
+    height: 50px;
+    width: 0;
+    border-radius: 5px;
+    border: 1px solid #ebc78c;
+}
+
+.encabezado__linkFocus {
+    background-color: #ebc78c;
+    display: inline-block;
+    color: #231F20;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: .5s;
+    border: 1px solid #ebc78c;
+}

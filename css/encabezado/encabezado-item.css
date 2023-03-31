@@ -1,3 +1,7 @@
 .encabezado__item {
     list-style: none;
 }
+.encabezado__itemSeparador {
+    list-style: none;
+    width: 2px;
+}

@@ -1,0 +1,23 @@
+.registro__boton {
+    margin: 0 1rem;
+    width: 40%;
+    height: 60px;
+    margin: 1rem 0 2rem 0;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    background-color: #1f2023;
+    color: #BEBEBE;
+    font-weight: 500;
+    font-size: 1.3rem;
+    transition: all .1s ease-in-out;
+    box-shadow: 3px 4px 8px -3px rgba(0,0,0,0.72);
+}
+
+.registro__boton:hover {
+    width: 42%;
+    background-color: #141516;
+    cursor: pointer;
+}
