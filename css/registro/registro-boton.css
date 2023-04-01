@@ -1,8 +1,6 @@
 .registro__boton {
-    margin: 0 1rem;
-    width: 40%;
+    width: 200px;
     height: 60px;
-    margin: 1rem 0 2rem 0;
     border: none;
     box-sizing: border-box;
     border-radius: 6px;
@@ -17,7 +15,7 @@
 }
 
 .registro__boton:hover {
-    width: 42%;
+    width: 215px;
     background-color: #141516;
     cursor: pointer;
 }
