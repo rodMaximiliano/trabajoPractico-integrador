@@ -1,5 +1,7 @@
 .background {
-    background-size: cover;
+    background-image: url('/img/veterinaria-quienesSomos.jpg');
     width: 100%;
-    height: auto;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
