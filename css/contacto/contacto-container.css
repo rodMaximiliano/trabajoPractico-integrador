@@ -1,0 +1,12 @@
+.contacto__container {
+    margin: 1rem auto;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50%;
+    box-shadow: 3px 4px 11px -3px rgba(0,0,0,0.72);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}

@@ -1,0 +1,26 @@
+.contacto__titulo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 0 0 .5rem 0;
+}
+
+.contacto__titulo2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0 0 .5rem 0;
+}
+
+.contacto__titulo3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: 0 0 .5rem 0;
+}
+
+.separador {
+    color: black;
+    background-color: #BEBEBE;
+    height: 1px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px;
+}

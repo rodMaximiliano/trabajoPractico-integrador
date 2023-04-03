@@ -1,0 +1,38 @@
+.fieldset {
+    border: none;
+    margin: 1rem;
+}
+
+.input__container {
+    margin: 0 0 1.5rem 0;
+}
+
+.input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid #BEBEBE;
+    overflow: visible;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.input__check {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    margin: .3rem;
+    font-size: .8rem;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.Desctxt {
+    padding: .5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.Desctxt:focus {
+    outline: none;
+}

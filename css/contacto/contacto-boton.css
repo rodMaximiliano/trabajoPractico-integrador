@@ -1,0 +1,19 @@
+.contacto__boton {
+    border: none;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #1f2023;
+    color: #BEBEBE;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 300px;
+    transition: all .1s ease-in-out;
+    align-self: center;
+}
+
+.contacto__boton:hover {
+    width: 315px;
+    background-color: #141516;
+    cursor: pointer;
+}

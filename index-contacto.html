@@ -28,6 +28,13 @@
         <link rel="stylesheet" href="/css/pie/pie-titulo.css">
         <link rel="stylesheet" href="/css/pie/pie-copy.css">
         <link rel="stylesheet" href="/css/pie/pie-copy-desc.css">
+
+        <link rel="stylesheet" href="/css/contacto/contacto-container.css">
+        <link rel="stylesheet" href="/css/contacto/contacto-formulario.css">
+        <link rel="stylesheet" href="/css/contacto/contacto-titulo.css">
+        <link rel="stylesheet" href="/css/contacto/fieldset.css">
+        <link rel="stylesheet" href="/css/contacto/contacto-seleccion.css">
+        <link rel="stylesheet" href="/css/contacto/contacto-boton.css">
     </head>
     
     <body class="body">
@@ -48,59 +55,44 @@
         </header>
 
         <section class="contacto__container">
-            <h2 class="container__titulo">Formulario de Contacto</h2>
+            <h2 class="contacto__titulo">Formulario de Contacto</h2>
+            <div class="separador"></div>
             <form action="" class="contacto__formulario">
                 
                 <fieldset class="fieldset">
-                    <div class="input__container">
-                        <input type="text" class="input" id="" placeholder="" required>
-                        <label for="" class="input__label"></label>
-                    </div>
-                    <div class="input__container">
-                        <input type="text" class="input" id="" placeholder="" required>
-                        <label for="" class="input__label"></label>
-                    </div>
-                    <div class="input__container">
-                        <input type="text" class="input" id="" placeholder="" required>
-                        <label for="" class="input__label"></label>
-                    </div>
-
-                    <select name="" id="">
-                        <option value="opcion1">Opcion 1</option>
-                        <option value="opcion2">Opcion 2</option>
-                        <option value="opcion3">Opcion 3</option>
+                    <h4 class="contacto__titulo2">Selecciona el motivo de la consulta</h4>
+                    <select name="contactoSelec" id="contactoSelec" class="contacto__seleccion">
+                        <option value="valor0">-</option>
+                        <option value="opcion1">Tengo un problema con un producto</option>
+                        <option value="opcion2">Facturacion, pago y reembolso</option>
+                        <option value="opcion3">Problemas de envío</option>
+                        <option value="opcion4">Consultas de garantía</option>
+                        <option value="opcion5">Consultas de atención al cliente</option>
                     </select>
                 </fieldset>
 
                 <fieldset class="fieldset">
                     <div class="input__container">
-                        <input type="text" class="input">
+                        <h5 class="contacto__titulo3">* Asunto</h5>
+                        <input type="text" class="input" placeholder="" required>
                         <label for="" class="input__label"></label>
                     </div>
+
                     <div class="input__container">
-                        <input type="text" class="input">
-                        <label for="" class="input__label"></label>
+                        <h5 class="contacto__titulo3">* Descripcion</h5>
+                        <textarea name="Desctxt" id="Desctxt" cols="49" rows="10" class="Desctxt"></textarea>
                     </div>
+
                     <div class="input__container">
-                        <input type="text" class="input">
-                        <label for="" class="input__label"></label>
+                        <input type="checkbox" id="apple" name="" value="">
+                        <label for="apple" class="input__check"> Acepto los términos y condiciones de uso</label><br>
+                        <input type="checkbox" id="banana" name="" value="" checked>
+                        <label for="banana" class="input__check">Acepto recibir correos electrónicos con noticias y promociones</label><br>
                     </div>
                 </fieldset>
 
-                <fieldset class="fieldset">
-                    <div class="input__container">
-                        <input type="text" class="input">
-                        <label for="" class="input__label"></label>
-                    </div>
-                    <div class="input__container">
-                        <input type="text" class="input">
-                        <label for="" class="input__label"></label>
-                    </div>
-                    <div class="input__container">
-                        <input type="text" class="input">
-                        <label for="" class="input__label"></label>
-                    </div>
-                </fieldset>
+                <button class="contacto__boton">Enviar solicitud</button>
+
             </form>
         </section>
 
