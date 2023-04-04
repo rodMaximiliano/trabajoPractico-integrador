@@ -1,0 +1,15 @@
+.cotizacion__item {
+    background-color: gray;
+    padding: 1rem;
+    box-sizing: border-box;
+    flex: 1;
+    color: white;
+}
+
+.cotizacion__itemFocus {
+    background-color: orange;
+    padding: 1rem;
+    box-sizing: border-box;
+    flex: 1;
+    color: white;
+}

@@ -1,0 +1,29 @@
+.cotizacion__container {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 4px 4px 11px -5px rgba(0,0,0,0.72);
+    margin: 1rem auto;
+    text-align: center;
+    width: 70%;
+    padding: 1rem 0 1rem 0;
+    flex-direction: column;
+}
+
+.cotizacion__formulario {
+    display: flex;
+    text-align: center;
+}
+
+.cotizacionForm__container {
+    display: flex;
+    border: none;
+}
+
+.input__containerChad {
+    margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}

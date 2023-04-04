@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="/normalize.css">
+        <link rel="stylesheet" href="/reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/body.css">
+        <link rel="stylesheet" href="/separador.css">
+
+        <link rel="stylesheet" href="/css/encabezado/encabezado.css">
+        <link rel="stylesheet" href="/css/encabezado/encabezado-item.css">
+        <link rel="stylesheet" href="/css/encabezado/encabezado-link.css">
+        <link rel="stylesheet" href="/css/encabezado/encabezado-lista.css">
+        <link rel="stylesheet" href="/css/encabezado/encabezado-logo.css">
+        <link rel="stylesheet" href="/css/encabezado/encabezado-titulo.css">
+
+        <link rel="stylesheet" href="/css/pie/pie.css">
+        <link rel="stylesheet" href="/css/pie/pie-link.css">
+        <link rel="stylesheet" href="/css/pie/pie-lista.css">
+        <link rel="stylesheet" href="/css/pie/pie-titulo.css">
+        <link rel="stylesheet" href="/css/pie/pie-copy.css">
+        <link rel="stylesheet" href="/css/pie/pie-copy-desc.css">
+
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-container.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-item.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-titulo.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-lista.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-logo.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-input.css">
+        <link rel="stylesheet" href="/css/cotizacion/cotizacion-boton.css">
+
+    </head>
+
+    <body class="body">
+        <header class="encabezado2">
+            <nav class="encabezado__titulo">
+                <a href="/index.html" class="encabezado__titulo"><img src="/img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo"></a>
+                <p class="encabezado__titulo">Pineda</p>
+                </nav>
+                <nav>
+                    <ul class="encabezado__lista">
+                        <li class="encabezado__item"><a href="index.html" class="encabezado__link">Home</a></li>
+                        <li class="encabezado__item"><a href="/index-contacto.html" class="encabezado__link">Contacto</a></li>
+                        <li class="encabezado__item"><a href="/index-cotizacion.html" class="encabezado__linkFocus">Cotizacion</a></li>
+                        <div class="encabezado__itemSeparador"></div>
+                        <li class="encabezado__item"><a href="/index-personal.html" class="encabezado__link">Personal</a></li>
+                    </ul> 
+                </nav>
+        </header>
+
+        <section class="cotizacion__container">
+            <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
+            <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
+            <nav>
+                <ul class="cotizacion__lista">
+                    <li class="cotizacion__itemFocus">Persona</li>
+                    <li class="cotizacion__item">Empresa</li>
+                    <li class="cotizacion__item">Productos</li>
+                </ul>
+                <h2 class="cotizacion__titulo3">Empecemos con la informacion basica</h2>
+            </nav>
+
+            <form action="">
+                <fieldset class="cotizacionForm__container">
+                    <img src="/img/logo-patita.png" alt="Logo de Pineda" class="cotizacion__logo">
+                    <div class="input__containerChad">
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Nombre</h4>
+                            <input type="text" name="name" id="name" class="input" placeholder="Agustin..." required>
+                            <label for="name" class="input-label"></label>
+                        </div>
+                                    
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Apellido</h4>
+                            <input type="text" name="lastName" id="lastName" class="input" placeholder="Bahijavier..." required>
+                            <label for="lastName" class="input-label"></label>
+                        </div>
+
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Email</h4>
+                            <input type="email" name="email" id="email" class="inputE" placeholder="Agustin@Bahijavier.com" required>
+                            <label for="email" class="input-label"></label>
+                        </div>
+                    </div>      
+                    
+
+                </fieldset>
+
+                <div class="cotizacion__botonCont">
+                    <button class="cotizacion__boton">Siguiente</button>
+                </div>
+
+            </form>
+        </section>
+
+        <footer class="pie">
+            <div class="pie__copy">
+                <div class="separador__pie2"></div>
+                <p class="pie__copy-desc">Copyright © 2023 ABC Company. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>

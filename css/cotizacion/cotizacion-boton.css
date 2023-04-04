@@ -1,0 +1,25 @@
+.cotizacion__botonCont {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 1rem 0 0;
+}
+
+.cotizacion__boton {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #1F2023;;
+    color: #BEBEBE;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+    transition: all .1s ease-in-out;  
+}
+
+.cotizacion__boton:hover {
+    background-color: #141516;
+    cursor: pointer;
+    transform: scale(1.02);
+}

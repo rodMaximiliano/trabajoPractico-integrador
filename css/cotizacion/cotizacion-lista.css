@@ -1,0 +1,7 @@
+.cotizacion__lista {
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
