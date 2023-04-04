@@ -1,7 +1,13 @@
 .cotizacion__botonCont {
     display: flex;
+    margin: .5rem 1rem 0 1rem;
+    justify-content: space-between;
+}
+
+.cotizacion__botonCont1 {
+    display: flex;
+    margin: .5rem 1rem 0 1rem;
     justify-content: flex-end;
-    margin: 0 1rem 0 0;
 }
 
 .cotizacion__boton {
@@ -18,7 +24,29 @@
     transition: all .1s ease-in-out;  
 }
 
+.cotizacion__botonB {
+    width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #1F2023;;
+    color: #BEBEBE;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: .8rem;
+    transition: all .1s ease-in-out;
+    right: 0;
+    top: 0;  
+}
+
 .cotizacion__boton:hover {
+    background-color: #141516;
+    cursor: pointer;
+    transform: scale(1.02);
+}
+
+.cotizacion__botonB:hover {
     background-color: #141516;
     cursor: pointer;
     transform: scale(1.02);

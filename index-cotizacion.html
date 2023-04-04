@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <link rel="stylesheet" href="/body.css">
         <link rel="stylesheet" href="/separador.css">
@@ -57,7 +58,7 @@
                 </nav>
         </header>
 
-        <section class="cotizacion__container">
+        <section class="cotizacion__container" id="paso1">
             <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
             <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
             <nav>
@@ -92,11 +93,102 @@
                         </div>
                     </div>      
                     
+                </fieldset>
+
+                <div class="cotizacion__botonCont1">
+                    <button class="cotizacion__boton" id="sigPaso1">Siguiente</button>
+                </div>
+
+            </form>
+        </section>
+        
+        <section class="cotizacion__container" id="paso2" style="display: none;">
+            <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
+            <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
+            <nav>
+                <ul class="cotizacion__lista">
+                    <li class="cotizacion__item">Persona</li>
+                    <li class="cotizacion__itemFocus">Empresa</li>
+                    <li class="cotizacion__item">Productos</li>
+                </ul>
+                <h2 class="cotizacion__titulo3">Empecemos con la informacion basica</h2>
+            </nav>
+
+            <form action="">
+                <fieldset class="cotizacionForm__container">
+                    <img src="/img/logo-patita.png" alt="Logo de Pineda" class="cotizacion__logo">
+                    <div class="input__containerChad">
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Nombre</h4>
+                            <input type="text" name="name" id="name" class="input" placeholder="Agustin..." required>
+                            <label for="name" class="input-label"></label>
+                        </div>
+                                    
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Apellido</h4>
+                            <input type="text" name="lastName" id="lastName" class="input" placeholder="Bahijavier..." required>
+                            <label for="lastName" class="input-label"></label>
+                        </div>
+
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Email</h4>
+                            <input type="email" name="email" id="email" class="inputE" placeholder="Agustin@Bahijavier.com" required>
+                            <label for="email" class="input-label"></label>
+                        </div>
+                    </div>      
+                    
 
                 </fieldset>
 
                 <div class="cotizacion__botonCont">
-                    <button class="cotizacion__boton">Siguiente</button>
+                    <button class="cotizacion__botonB" id="backPaso2">Volver</button>
+                    <button class="cotizacion__boton" id="sigPaso2">Siguiente</button>
+                </div>
+
+            </form>
+        </section>
+            
+        <section class="cotizacion__container" id="paso3" style="display: none;">
+            <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
+            <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
+            <nav>
+                <ul class="cotizacion__lista">
+                    <li class="cotizacion__item">Persona</li>
+                    <li class="cotizacion__item">Empresa</li>
+                    <li class="cotizacion__itemFocus">Productos</li>
+                </ul>
+                <h2 class="cotizacion__titulo3">Empecemos con la informacion basica</h2>
+            </nav>
+
+            <form action="">
+                <fieldset class="cotizacionForm__container">
+                    <img src="/img/logo-patita.png" alt="Logo de Pineda" class="cotizacion__logo">
+                    <div class="input__containerChad">
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Nombre</h4>
+                            <input type="text" name="name" id="name" class="input" placeholder="Agustin..." required>
+                            <label for="name" class="input-label"></label>
+                        </div>
+                                    
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Apellido</h4>
+                            <input type="text" name="lastName" id="lastName" class="input" placeholder="Bahijavier..." required>
+                            <label for="lastName" class="input-label"></label>
+                        </div>
+
+                        <div class="input__container">
+                            <h4 class="cotizacion__titulo4">* Email</h4>
+                            <input type="email" name="email" id="email" class="inputE" placeholder="Agustin@Bahijavier.com" required>
+                            <label for="email" class="input-label"></label>
+                        </div>
+                    </div>      
+                    
+
+                </fieldset>
+
+                <div class="cotizacion__botonCont">
+                    <button class="cotizacion__botonB" id="backPaso2">Volver</button>
+                    <button class="cotizacion__boton" id="sigPaso2">Terminar</button>
                 </div>
 
             </form>
@@ -108,5 +200,7 @@
                 <p class="pie__copy-desc">Copyright © 2023 ABC Company. Todos los derechos reservados.</p>
             </div>
         </footer>
+
+        <script src="/js/cotizacionPasos.js"></script>
     </body>
 </html>
