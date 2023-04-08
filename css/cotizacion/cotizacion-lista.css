@@ -5,3 +5,9 @@
     justify-content: space-between;
     width: 100%;
 }
+
+.cotizacion__listaProductos {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}

@@ -21,6 +21,12 @@
     border: none;
 }
 
+.cotizacion__containerProductos {
+    margin: 1.2rem;
+    display: flex;
+    text-align: start;
+}
+
 .input__containerChad {
     margin: .5rem;
     display: flex;
