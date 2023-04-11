@@ -1,8 +1,14 @@
 $(document).ready(function() {
     // Acceder del paso 1 al paso 2
-    $(`#sigPaso1`).on(`click`, function() {
-        $(`#paso1`).hide();
-        $(`#paso2`).show();
+    $("#sigPaso1").on("click", function() {
+        let nombrePersona = $("#name").val();
+        let apellidoPersona = $("#lastName").val();
+        let emailPersona = $("email").val();
+        console.log(nombrePersona);
+        console.log(apellidoPersona);
+        console.log(emailPersona);
+        $("#paso1").hide();
+        $("#paso2").show();
     });
     // Dentro del paso 2 volver al paso 1 
     $(`#backPaso2`).on(`click`, function() {

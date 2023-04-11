@@ -1,0 +1,112 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 6rem auto 0;
+    max-width: 800px;
+    background: white;
+    border: 1px solid #aaa;
+    padding: 2rem;
+}
+
+header {
+    font-size: .9rem;
+    margin: 1rem 0 0;
+    padding: 0 0 2rem 0;
+    border-bottom: 3pt solid #ebc78c;
+}
+
+.control-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.contenedor__logo {
+    width: 20%;
+}
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+}
+
+.cotizacion__logo {
+    width: 100px;
+    padding: 1rem;
+}
+
+.descCont {
+    margin: 1rem 0 1rem 1rem;
+    width: 30%;
+}
+
+.contenedor__factura {
+    display: flex;
+}
+
+.cotizacion__tituloh1 {
+    margin: 1rem 0 0 .5rem;
+}
+
+.contenedor__cliente {
+    margin: .5rem 1.3rem 1rem .5rem;
+    width: 50%;
+    font-size: .9rem;
+}
+
+.tabla_detalle {
+    border: solid 1px #ebc78c;
+	padding:1 0px;
+	height: 32px;
+	text-align:center;
+    font-size: .8rem;
+}
+
+.tabla_detalle2 {
+    margin-top: 1rem;
+	padding:1 0px;
+	height: 32px;
+	text-align: left;
+    font-size: .8rem;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  tr{
+    padding: 8px;
+  }
+
+#TotalPrice {
+    color: #ebc78c;
+    font-size: 1.7rem;
+}
+
+.nota {
+    margin: 1rem 0 1rem 1rem;
+    font-size: .6rem;
+    width: 50%;
+}
+
+@media print {
+    html {
+        margin: 0;
+        padding: 0;
+        background: #fff
+    }
+    body {
+        width: 100%;
+        border: none;
+        background: #fff;
+        color: #000;
+        margin: 0;
+        padding: 0
+    }
+}

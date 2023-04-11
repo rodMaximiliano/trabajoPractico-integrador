@@ -1,0 +1,25 @@
+.facturacion__contenedor {
+    background-color: white;
+    width: 60%;
+    height: 1000px;
+    margin: 2rem auto;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+}
+
+.facturacion__headerContainer {
+    margin: 1rem;
+    font-size: .75rem;
+    line-height: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.facturacion__headerContainerA {
+    display: flex;
+    margin: .5rem 1rem 1rem 0;
+    font-size: .75rem;
+    line-height: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}

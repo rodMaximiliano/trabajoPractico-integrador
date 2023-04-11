@@ -9,5 +9,4 @@
 .cotizacion__listaProductos {
     display: flex;
     list-style: none;
-    flex-direction: column;
 }

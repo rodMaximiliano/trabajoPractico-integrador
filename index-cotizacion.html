@@ -14,6 +14,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
+        <!-- Incluye la librería jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- Incluye la librería jQuery Validate -->
+        <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+        <script src="js/cotizacionPasos.js"></script>
+
         <link rel="stylesheet" href="body.css">
         <link rel="stylesheet" href="separador.css">
 
@@ -58,9 +64,9 @@
                 </nav>
         </header>
 
-        <form id="msform">
+        <form action="resumenCotizacion.html">
 
-            <fieldset class="cotizacion__container" id="paso1">
+            <fieldset class="cotizacion__container fieldset" id="paso1">
                 <div>
                     <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
                     <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
@@ -99,7 +105,7 @@
                     
             </fieldset>
 
-            <fieldset class="cotizacion__container" style="display: none;" id="paso2">
+            <fieldset class="cotizacion__container fieldset" style="display: none;" id="paso2">
                 <div>
                     <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
                     <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
@@ -139,7 +145,7 @@
                     
             </fieldset>
 
-            <fieldset class="cotizacion__container" style="display: none;" id="paso3">
+            <fieldset class="cotizacion__container fieldset" style="display: none;" id="paso3">
                 <div>
                     <h1 class="cotizacion__titulo">Cotizacion N°1234</h1>
                     <h5 class="cotizacion__titulo2">Completa todos los pasos</h5>
@@ -149,16 +155,28 @@
                             <li class="cotizacion__item">Empresa</li>
                             <li class="cotizacion__itemFocus">Productos</li>
                         </ul>
-                        <h2 class="cotizacion__titulo3">Empecemos con la informacion basica</h2>
+                        <h2 class="cotizacion__titulo3">Por ultimo la seleccion de productos</h2>
+                        <h4 class="cotizacion__titulo5">Diez unidades unicamente por entidad debido a nuestro estado de la produccion</h4>
                     </nav>
                     <img src="img/logo-patita.png" alt="Logo de Pineda" class="cotizacion__logo"> 
                     
                     <div class="cotizacion__containerProductos">
-                        <ul class="cotizacion__listaProductos">
+
+                        <div class="cotizacion__containerCheck">
+                            <input type="checkbox" name="proterPescadoAdulto" id="proterPescadoAdulto" class="cotizacion__checkProductos">
+                            <label for="proterPescado"></label>
                             <li class="cotizacion__descripcionProductos">Proterline balanceado para Adultos - Pescado/Vegetal</li>
+                        </div>
+                        <div class="cotizacion__containerCheck">
+                            <input type="checkbox" name="proterCarneCachorro" id="proterCarneCachorro" class="cotizacion__checkProductos">
+                            <label for="proterCarneCachorro"></label>
                             <li class="cotizacion__descripcionProductos">Proterline balanceado para Cachorros - Carne/Arroz</li>
-                            <li class="cotizacion__descripcionProductos">Proterline balanceado para Cachorros - Carne/Arroz</li>
-                        </ul>
+                        </div>
+                        <div class="cotizacion__containerCheck">
+                            <input type="checkbox" name="proterPescadoCachorro" id="proterPescadoCachorro" class="cotizacion__checkProductos">
+                            <label for="proterPescadoCachorro"></label>
+                            <li class="cotizacion__descripcionProductos">Proterline balanceado para Cachorros - Pescado/Vegetal</li>
+                        </div>
                     </div>
 
                     </div> 
@@ -178,8 +196,5 @@
             </div>
         </footer>
 
-        <script src="js/cotizacionPasos.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     </body>
 </html>

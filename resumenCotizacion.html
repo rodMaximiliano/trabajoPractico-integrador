@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resumen de la Cotizacion - Para imprimir</title>
+        <link rel="shortcut icon" href="img/logo-patita.ico">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="reset.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/encabezado/encabezado.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-item.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-link.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-lista.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-logo.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-titulo.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-imprimir.css">
+        <link rel="stylesheet" href="css/encabezado/encabezado-imprimir.css">
+
+        <link rel="stylesheet" href="intento.css">
+
+    </head>
+
+    <body>
+        <div class="encabezado3 no-print control-bar">
+            <nav class="encabezado__titulo2">
+                <a href="index.html" class="encabezado__titulo2"><img src="img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo2"></a>
+                <p class="encabezado__titulo2">Facturacion</p>
+                </nav>
+            <div class="encabezado__imprimir">
+                <a href="javascript:window.print()" class="encabezado__imprimirItem">Imprimir</a>
+            </div>
+        </div>
+
+        <header class="contenedor">
+            <div class="contenedor__logo">
+                <img src="img/logo-patita.png" alt="Imagen de Pineda" class="cotizacion__logo">
+            </div>
+
+            <div class="descCont"> 
+                <p>Sistema Web S.A. de C.V.<br>
+                    234/90, New York Street<br>
+                    United States.</p>
+            </div>
+
+            <div class="descCont">
+                <p>Web: www.sistemasweb.la<br>
+                E-mail: info@obedalvarado.pw<br>
+                Tel: +456-345-908-559<br>
+                Twitter: @alvarado_obed</p>
+            </div>
+
+            <div class="descCont">
+                <p>Datos bacarios:<br>
+                Titular de la cuenta:<br>
+                IBAN:<br>
+                BIC:</p>
+            </div>
+        </header>
+
+        <div>
+            <h1 class="cotizacion__tituloh1">Factura</h1>
+        </div>
+        <div class="contenedor__factura">
+            <div class="contenedor__cliente">
+                <p contenteditable class="client">
+                    <strong>Facturar a</strong><br>
+                    [Nombre cliente]<br>
+                    [Nombre emmpresa]<br>
+                    [Dirección empresa]<br>
+                    [Tel empresa]
+                </p>
+            </div>
+
+            <div class="contenedor__cliente">
+                <p contenteditable class="client">
+                    <strong>Enviar a</strong><br>
+                    [Nombre cliente]<br>
+                    [Nombre emmpresa]<br>
+                    [Dirección empresa]<br>
+                    [Tel empresa]
+                  </p>
+            </div>
+        
+        </div>
+
+        <div style="width: 100%;">
+            <table style="width: 100%;">
+               <thead>
+                    <tr class="tabla_detalle">
+                        <th width="25%">Vendedor</th>
+                        <th width="25%">Orden de compra</th>
+                        <th width="25%">Enviado por</th>
+                        <th width="25%">Terminos y Condiciones</th> 
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="tabla_detalle">
+                        <td width="25%">Pineda</td>
+                        <td width="25%">#PO-2020</td>
+                        <td width="25%">PinedaRRHH</td>
+                        <td width="25%">Pago al contado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div style="width: 100%; margin-top: 1rem;">
+            <table style="width: 100%;">
+                <thead style="border-bottom: 1pt solid #ebc78c;">
+                    <tr class="tabla_detalle2" >
+                        <th width="6%" style="padding: 1rem;">Codigo</th>
+                        <th width="60%">Descripcion</th>
+                        <th width="11%">Cant.</th>
+                        <th width="11%">Precio</th>
+                        <th width="11%">Total</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="tabla_detalle2">
+                        <td width="6%" style="padding: 1rem;">12345</td>
+                        <td width="60%">Descripcion</td>
+                        <td width="11%">1</td>
+                        <td width="11%">$99</td>
+                        <td width="11%">Total</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="invoicelist-footer">
+            <table style="float: right; width: 25%; margin: 1rem 0 0 0;">
+                <tbody>
+                    <tr>
+                        <td>Total: </td>
+                        <td id="TotalPrice">99</td>
+                    </tr>
+                </tbody> 
+            </table>
+        </div>
+
+        <div class="nota" contenteditable>
+            <h2>Nota: </h2>
+        </div>
+
+    </body>
+</html>
