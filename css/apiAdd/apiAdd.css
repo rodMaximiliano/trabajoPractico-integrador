@@ -6,4 +6,7 @@
     box-sizing: border-box;
     box-shadow: -2px 1px 15px -5px rgba(0,0,0,0.75);
     margin: 3rem 0 3rem 0;
+    margin: 2rem;
+    box-sizing: border-box;
+    border-radius: 100px 100px 100px 100px;
 }
