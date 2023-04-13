@@ -1,0 +1,42 @@
+.containerPersonal {
+    display: flex;
+    align-items: center;
+    background-color: var(--bs-dark-text-emphasis);
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+
+.containerPersonalAside {
+    display: flex;
+    background-color: var(--bs-dark-text-emphasis);
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenPersona {
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin: 1rem;
+    border: 6px solid black;
+    width: 20%;
+}
+
+.btn-primary {
+    --bs-btn-border-color: ;
+}
+
+.personalTitulo {
+    padding: 1rem 0 0 0;
+}
+
+.marginlogo {
+    padding: 1rem;
+}
+
+.modal-dialog {
+    background-color: var(--bs-dark-text-emphasis);
+}

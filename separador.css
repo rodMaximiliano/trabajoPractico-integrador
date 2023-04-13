@@ -23,3 +23,9 @@
     box-sizing: border-box;
     width: 100%;
 }
+
+.separadorPersona {
+    width: 90%;
+    border-bottom: 2px solid #2E2F36;
+    box-sizing: border-box;
+}
