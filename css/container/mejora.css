@@ -40,12 +40,7 @@
 }
 
 .descDegrade {
-    background: #000000; /* Busque como usar el degrade, use un generador perdon */
-    background: -webkit-linear-gradient(to right, #000000, #bebebe); 
-    background: linear-gradient(to right, #000000, #bebebe);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: black;
 }
 
 .Seccion3 {

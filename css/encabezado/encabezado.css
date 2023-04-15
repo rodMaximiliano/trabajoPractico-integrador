@@ -1,28 +1,24 @@
 .encabezado {
     z-index: 100;
     width: 100%;
-    position: fixed;
     display: flex;
-    background-color: #1F2023;
+    background-color: transparent;
     align-items: center;
     justify-content: space-between;
-    border-bottom: .5px solid black;
 }
 
 .encabezado2 {
     width: 100%;
     display: flex;
-    background-color: #1F2023;
+    background-color: transparent;
     align-items: center;
     justify-content: space-between;
-    border-bottom: .5px solid black;
 }
 
 .encabezado3 {
     width: 100%;
     display: flex;
-    background-color: #1F2023;
+    background-color: transparent;
     align-items: center;
     justify-content: space-between;
-    border-bottom: .5px solid black;
 }
