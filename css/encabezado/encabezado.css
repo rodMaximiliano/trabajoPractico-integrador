@@ -1,5 +1,5 @@
 .encabezado {
-    z-index: 2;
+    z-index: 100;
     width: 100%;
     position: fixed;
     display: flex;

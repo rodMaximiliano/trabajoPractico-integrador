@@ -1,0 +1,58 @@
+.containerMejora {
+    display: flex;
+    margin: 1rem 1rem 0 1rem;
+}
+
+.containerMejoraDiv {
+    display: flex;
+    font-size: 1.8rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+    width: 33%;
+    margin: .2rem;
+    padding: 0 0 0 1rem;
+    flex-direction: row;
+}
+
+.containerMejoraDiv:hover {
+    transform: scale(1.02);
+}
+
+.Seccion1 {
+    background-color: #ebc78c;
+    box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+}
+
+.imagenMejora {
+    width: 150px;
+    align-self: flex-end;
+}
+
+.Seccion2 {
+    box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    background-color: #1f2023;
+    background-image: linear-gradient(270deg, #1f2023 0%, #ebc78c 100%);
+        
+}
+
+.descDegrade {
+    background: #000000; /* Busque como usar el degrade, use un generador perdon */
+    background: -webkit-linear-gradient(to right, #000000, #bebebe); 
+    background: linear-gradient(to right, #000000, #bebebe);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Seccion3 {
+    box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 28px -2px rgba(0,0,0,0.75);
+    color: rgb(190, 190, 190);
+    background-color: #1f2023;
+    height: 250px;
+}

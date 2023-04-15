@@ -1,12 +1,10 @@
 .apiAdd {
     align-items: flex-start;
     display: flex;
-    background-color: #ebc78c;
+    background-color: rgb(31, 32, 35);
+    background-image: linear-gradient(270deg, rgb(31, 32, 35) 0%, rgb(235, 199, 140) 100%);
     padding: 1rem 0 1rem 1rem;
     box-sizing: border-box;
     box-shadow: -2px 1px 15px -5px rgba(0,0,0,0.75);
-    margin: 3rem 0 3rem 0;
-    margin: 2rem;
-    box-sizing: border-box;
-    border-radius: 100px 100px 100px 100px;
+    margin: 2rem 0 2rem 0;
 }
