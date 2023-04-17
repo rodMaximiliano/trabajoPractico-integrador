@@ -34,6 +34,7 @@
     justify-content: space-between;
     list-style: none;
     padding: 2rem;
+    flex-wrap: wrap;
 }
 
 .marcasTitulo {

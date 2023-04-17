@@ -1,0 +1,33 @@
+.serviciosOfrecemos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.serviciosOfrecemos {
+    text-align: center;
+    padding: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+}
+
+.serviciosOfrecemos h1 {
+    font-size: 5rem;
+}
+
+.serviciosOfrecemos p {
+    font-size: 1.3rem;
+}
+
+.containerServicios {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.lista {
+    width: 45%;
+    margin: 0 1rem 1rem 1rem;
+}
