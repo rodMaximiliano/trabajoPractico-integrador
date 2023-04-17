@@ -29,3 +29,8 @@
     border-bottom: 2px solid #2E2F36;
     box-sizing: border-box;
 }
+
+.separadorHome {
+    border-bottom: 2px solid #2E2F36;
+    margin: 1rem;  
+}
