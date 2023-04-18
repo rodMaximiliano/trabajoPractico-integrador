@@ -51,3 +51,31 @@
     background-color: #1f2023;
     height: 250px;
 }
+
+.flexMejora {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .containerMejora {
+        flex-wrap: wrap;
+    }
+
+    .containerMejoraDiv {
+        width: 100%;
+    }
+
+    .flexMejora {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .imagenMejora {
+        width: 150px;
+        align-self: center;
+    }
+
+    .Seccion3 {
+        height: auto;
+    }
+}

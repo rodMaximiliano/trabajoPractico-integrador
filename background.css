@@ -32,3 +32,13 @@
     justify-content: center;
     flex-direction: column;
 }
+
+@media (max-width: 768px) {
+    .containerTexto {
+        text-align: center;
+    }
+
+    .backgroundMejoraImg {
+        display: none;
+    }
+}
