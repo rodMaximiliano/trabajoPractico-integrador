@@ -4,3 +4,9 @@
     font-size: 1.2rem;
     color: #BEBEBE;
 }
+
+@media (max-width: 768px) {
+    .pedido__descripcion {
+        font-size: 0.8rem;
+    }
+}

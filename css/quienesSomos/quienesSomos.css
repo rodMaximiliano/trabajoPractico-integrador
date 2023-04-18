@@ -35,3 +35,10 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .quienesSomosPersonas {
+        padding: 0;
+        margin: 0 1rem 0 1rem;
+    }
+}

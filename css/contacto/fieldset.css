@@ -37,3 +37,9 @@
 .Desctxt:focus {
     outline: none;
 }
+
+@media (max-width: 768px) {
+    .Desctxt {
+        width: 100%;
+    }
+}
