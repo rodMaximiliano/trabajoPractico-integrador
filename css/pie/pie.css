@@ -6,3 +6,45 @@
     font-weight: 500;
 }
 
+.variedades {
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__categoria {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.footer__categoriaAgradecimientos {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.agradecimiento__iconos {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}   
+
+.contenedor__iconos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    text-decoration: none;
+    color: #BEBEBE;
+}
+
+.titulo__agradecimiento {
+    margin: .7rem 0 0 0;
+}
+
+.agradecimiento__titulo {
+    margin: 1rem;
+    text-align: center;
+    color: #bebebe;
+}

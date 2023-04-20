@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Con quienes trabajamos</title>
-
         <link rel="shortcut icon" href="img/logo-patita.ico">
+        <title>Formulario de Contacto Mejora</title>
+        
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="reset.css">
 
@@ -31,11 +31,10 @@
         <link rel="stylesheet" href="css/pie/pie-copy.css">
         <link rel="stylesheet" href="css/pie/pie-copy-desc.css">
 
-        <link rel="stylesheet" href="css/quienTrabajamos/quienTrabajamos.css">
+        <link rel="stylesheet" href="css/contacto/mejora-contacto.css">
     </head>
-
+    
     <body class="body">
-
         <header class="encabezado">
             <nav class="encabezado__nav">
                 <a href="index.html"><img src="img/logo-patita.png" alt="Logo FunkoShop" class="encabezado__logo"></a>
@@ -43,8 +42,8 @@
                 </nav>
                 <nav>
                     <ul class="encabezado__lista">
-                        <li class="encabezado__item"><a href="index.html" class="encabezado__linkFocus">Home</a></li>
-                        <li class="encabezado__item"><a href="index-contacto.html" class="encabezado__link">Contacto</a></li>
+                        <li class="encabezado__item"><a href="index.html" class="encabezado__link">Home</a></li>
+                        <li class="encabezado__item"><a href="index-contacto.html" class="encabezado__linkFocus">Contacto</a></li>
                         <li class="encabezado__item"><a href="index-cotizacion.html" class="encabezado__link">Cotizacion</a></li>
                         <div class="encabezado__itemSeparador"></div>
                         <li class="encabezado__item"><a href="index-personal.html" class="encabezado__link">Personal</a></li>
@@ -52,26 +51,55 @@
                 </nav>
         </header>
 
-        <div class="quienTrabajamos">
-            <h1>¿Con quien trabajamos?</h1>
-            <p>Creemos en trabajar con los mejores socios y proveedores para 
-            garantizar que brindemos los mejores servicios y productos a nuestras mascotas y clientes. 
-            Es por eso que buscamos alianza con las mejores marcas, desviandonos de los alimentos muy procesados, 
-            ampliando nuestra variedad de sabores, tamaños y poder complacer a nuestros mejores amigos</p>
-        </div>
+        <section class="contactoContainer">
+            <div class="contactoTips">
+                <img src="img/bombilla.png" alt="" width="150px" style="margin: 0 0 1rem 0;">
+                <h3>Algunos tips para ti</h3>
+                <ul class="contactoLista">
+                    <li>Consejo 1</li>
+                    <li>Consejo 1</li>
+                    <li>Consejo 1</li>
+                    <li>Consejo 1</li>
+                </ul>
+            </div>
+            <form action="registroCompletado.HTML" class="contacto__formulario">
+                
+                <fieldset class="fieldset">
+                    <h4 class="contacto__titulo2">Selecciona el motivo de la consulta</h4>
+                    <select name="contactoSelec" id="contactoSelec" class="contacto__seleccion">
+                        <option value="valor0">Otros motivos</option>
+                        <option value="opcion1">Tengo un problema con un producto</option>
+                        <option value="opcion2">Facturacion, pago y reembolso</option>
+                        <option value="opcion3">Problemas de envío</option>
+                        <option value="opcion4">Consultas de garantía</option>
+                        <option value="opcion5">Consultas de atención al cliente</option>
+                    </select>
+                </fieldset>
 
-        <div class="marcasContainer">
-            <h1 class="marcasTitulo">Marcas destacadas</h1>
-            <div class="separadorHome"></div>
-            <ul class="marcas">
-                <li><img src="img/marcas/Excellent 150x150.png" alt="" class="marcasImg"></li>
-                <li><img src="img/marcas/Ferplast 150x150.png" alt="" class="marcasImg"></li>
-                <li><img src="img/marcas/puppis-logo-marcas.png" alt="" class="marcasImg"></li>
-                <li><img src="img/marcas/Royal Canin 150x150.png" alt="" class="marcasImg"></li>
-                <li><img src="img/marcas/VitalCan 150x150.png" alt="" class="marcasImg"></li>
-                <li><img src="img/marcas/Web_LogoPurinaPloplan_OUT-1.png" alt="" class="marcasImg" style="width: 150px;"></li>
-            </ul>
-        </div>
+                <fieldset class="fieldset">
+                    <div class="input__container">
+                        <h5 class="contacto__titulo3">* Asunto</h5>
+                        <input type="text" class="input" placeholder="" required>
+                        <label for="" class="input__label"></label>
+                    </div>
+
+                    <div class="input__container">
+                        <h5 class="contacto__titulo3">* Descripcion</h5>
+                        <textarea name="Desctxt" id="Desctxt" cols="49" rows="10" class="Desctxt" required></textarea>
+                    </div>
+
+                    <div class="input__container">
+                        <input type="checkbox" id="Terms" name="Terms" value="" required>
+                        <label for="Terms" class="input__check"> Acepto los términos y condiciones de uso</label><br>
+                        <input type="checkbox" id="banana" name="" value="" checked>
+                        <label for="banana" class="input__check">Acepto recibir correos electrónicos con noticias y promociones</label><br>
+                    </div>
+                </fieldset>
+
+                <button class="contacto__boton">Enviar solicitud</button>
+
+            </form>
+        </section>
 
         <footer class="pie">
             <div class="variedades">

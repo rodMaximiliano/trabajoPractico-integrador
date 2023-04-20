@@ -15,6 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="separador.css">
 
         <link rel="stylesheet" href="css/encabezado/encabezado.css">
         <link rel="stylesheet" href="css/encabezado/encabezado-item.css">
@@ -55,50 +56,124 @@
                 </nav>
         </header>
 
-        <section class="contacto__container">
-            <h2 class="contacto__titulo">Formulario de Contacto</h2>
-            <div class="separador"></div>
-            
-            <form action="registroCompletado.HTML" class="contacto__formulario">
+        <div class="contacto__TipsContainer">
+            <div class="contactoTips">
+                <img src="img/bombilla.png" alt="" width="250px" style="margin: 0 0 1rem 0;">
+                <h3 style="font-size: 1.3rem;">Algunos tips para ti</h3>
+                <ul class="contactoLista">
+                    <li>Revisa antes de enviar</li>
+                    <li>Información clara y precisa</li>
+                    <li>Sé breve y conciso</li>
+                    <li>Opciones de contacto alternativas</li>
+                </ul>
+            </div>
+            <section class="contacto__container">
+                <h2 class="contacto__titulo">Formulario de Contacto</h2>
+                <div class="separador"></div>
                 
-                <fieldset class="fieldset">
-                    <h4 class="contacto__titulo2">Selecciona el motivo de la consulta</h4>
-                    <select name="contactoSelec" id="contactoSelec" class="contacto__seleccion">
-                        <option value="valor0">Otros motivos</option>
-                        <option value="opcion1">Tengo un problema con un producto</option>
-                        <option value="opcion2">Facturacion, pago y reembolso</option>
-                        <option value="opcion3">Problemas de envío</option>
-                        <option value="opcion4">Consultas de garantía</option>
-                        <option value="opcion5">Consultas de atención al cliente</option>
-                    </select>
-                </fieldset>
-
-                <fieldset class="fieldset">
-                    <div class="input__container">
-                        <h5 class="contacto__titulo3">* Asunto</h5>
-                        <input type="text" class="input" placeholder="" required>
-                        <label for="" class="input__label"></label>
-                    </div>
-
-                    <div class="input__container">
-                        <h5 class="contacto__titulo3">* Descripcion</h5>
-                        <textarea name="Desctxt" id="Desctxt" cols="49" rows="10" class="Desctxt" required></textarea>
-                    </div>
-
-                    <div class="input__container">
-                        <input type="checkbox" id="Terms" name="Terms" value="" required>
-                        <label for="Terms" class="input__check"> Acepto los términos y condiciones de uso</label><br>
-                        <input type="checkbox" id="banana" name="" value="" checked>
-                        <label for="banana" class="input__check">Acepto recibir correos electrónicos con noticias y promociones</label><br>
-                    </div>
-                </fieldset>
-
-                <button class="contacto__boton">Enviar solicitud</button>
-
-            </form>
-        </section>
-
+                <form action="registroCompletado.HTML" class="contacto__formulario">
+                    
+                    <fieldset class="fieldset">
+                        <h4 class="contacto__titulo2">Selecciona el motivo de la consulta</h4>
+                        <select name="contactoSelec" id="contactoSelec" class="contacto__seleccion">
+                            <option value="valor0">Otros motivos</option>
+                            <option value="opcion1">Tengo un problema con un producto</option>
+                            <option value="opcion2">Facturacion, pago y reembolso</option>
+                            <option value="opcion3">Problemas de envío</option>
+                            <option value="opcion4">Consultas de garantía</option>
+                            <option value="opcion5">Consultas de atención al cliente</option>
+                        </select>
+                    </fieldset>
+    
+                    <fieldset class="fieldset">
+                        <div class="input__container">
+                            <h5 class="contacto__titulo3">* Asunto</h5>
+                            <input type="text" class="input" placeholder="" required>
+                            <label for="" class="input__label"></label>
+                        </div>
+    
+                        <div class="input__container">
+                            <h5 class="contacto__titulo3">* Descripcion</h5>
+                            <textarea name="Desctxt" id="Desctxt" cols="49" rows="10" class="Desctxt" required></textarea>
+                        </div>
+    
+                        <div class="input__container">
+                            <input type="checkbox" id="Terms" name="Terms" value="" required>
+                            <label for="Terms" class="input__check"> Acepto los términos y condiciones de uso</label><br>
+                            <input type="checkbox" id="banana" name="" value="" checked>
+                            <label for="banana" class="input__check">Acepto recibir correos electrónicos con noticias y promociones</label><br>
+                        </div>
+                    </fieldset>
+    
+                    <button class="contacto__boton">Enviar solicitud</button>
+    
+                </form>
+            </section>
+        </div>
+        
         <footer class="pie">
+            <div class="variedades">
+                <a href="index.html" class="pie__titulo">Home</a>
+                <a href="index-contacto.html" class="pie__titulo">Contacto</a>
+                <a href="index-cotizacion.html" class="pie__titulo">Cotizacion</a>
+                <a href="index-personal.html" class="pie__titulo">Personal</a>
+            </div>
+                <div class="separador__pie"></div>
+            
+            <div>
+                <h3 class="agradecimiento__titulo">Agradecimientos por ser gratuitos</h3>
+                <div class="separador__pie"></div>
+                <ul class="agradecimiento__iconos">
+                    <li>
+                        <a href="https://www.grabient.com" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/blurred.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Grabient</h4>
+                            <p></p>  
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://chat.openai.com" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/chip.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Chat GPT-4</h4>
+                            <p></p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://www.peko-step.com/es/tool/tfcolor.html" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/color.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Convert. hexa</h4>
+                            <p></p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://color.adobe.com/es/create/color-wheel/" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/color-circle.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Adobe Color</h4>
+                            <p></p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://cssgenerator.org/box-shadow-css-generator.html" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/cube-variant-with-shadow.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Box Shadow</h4>
+                            <p></p>
+                        </a>
+                        
+                    </li> 
+                    <li>
+                        <a href="https://www.flaticon.es" class="contenedor__iconos" target="_blank">
+                            <img src="img/iconosAgradecimiento/flaticon.png" alt="" style="width: 50px;">
+                            <h4 class="titulo__agradecimiento">Flaticon</h4>
+                            <p></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="pie__copy">
                 <div class="separador__pie2"></div>
                 <p class="pie__copy-desc">Copyright © 2023 ABC Company. Todos los derechos reservados.</p>
